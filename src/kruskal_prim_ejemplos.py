@@ -16,10 +16,15 @@ KruskalD=gfMalla.KruskalD()
 KruskalD.display()
 KruskalD.graphviz()
 
+KruskalI=gfMalla.KruskalI()
+KruskalI.display()
+KruskalI.graphviz()
+
 prim=gfMalla.Prim()
 prim.display()
 prim.graphviz()
 
+'''
 #******************************************************************************
 from grafoErdosRenyi import grafoErdosRenyi
 #******************************************************************************
@@ -38,3 +43,4 @@ prim.graphviz()
 
 
 #******************************************************************************
+'''

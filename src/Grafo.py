@@ -310,6 +310,37 @@ class Grafo:
         print('KruskalD - MST costo:',mst_costo)
         return grafoKruskalD
 
+    def KruskalI(self):
+        nombre = self.id+ '_KruskalI'
+        #Generar objeto grafo
+        grafoKruskalI = Grafo(nombre)
+
+        q = PriorityQueue() #Crear cola de prioridad
+
+         #Agregar todos los nodos al grafo
+        for key, value in self.nodos.items():
+            grafoKruskalI.agregar_nodoExistente(self.nodos[value.id])
+
+         #Agregar todas los aristas al grafo
+        for key, value in self.aristas.items():
+            grafoKruskalI.agregar_aristaExistente(self.aristas[value.id])
+            q.put((-value.weight,value.id))  #Agregar arista a la cola de prioridad  (Valor negativo para invertir la cola de prioridad)
+
+        #Obtener el total de nodos inicial
+        totalNodos=grafoKruskalI.totalNodos()
+
+        #Ordenar las aristas de mayor a menor
+        print('totalNodos:',totalNodos)
+
+        mst_costo=0
+
+        while not q.empty():
+            weight,arista = q.get() #Extraer el siguiente nodo (con la distancia más pequeña)
+            print('[',weight,'] ', arista)
+
+        print('KruskalI - MST costo:',mst_costo)
+        return grafoKruskalI
+
     def Prim(self):
         nombre = self.id+ '_Prim'
         #Generar objeto grafo
