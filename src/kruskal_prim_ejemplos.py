@@ -1,14 +1,15 @@
 import datetime
+import time
+start_time = time.time()
+
 x = datetime.datetime.now()
 print(x)
-#******************************************************************************
-nodo_raiz=1
-print('nodo_raiz: ',nodo_raiz)
+
 #******************************************************************************
 from grafoMalla import grafoMalla
 #******************************************************************************
 #grafoMalla - Pocos nodos
-gfMalla = grafoMalla(3,3,dirigido=False)
+gfMalla = grafoMalla(20,10,dirigido=False) #3,3
 gfMalla.display()
 gfMalla.graphviz()
 
@@ -37,6 +38,10 @@ KruskalD=gfErdosReny.KruskalD()
 KruskalD.display()
 KruskalD.graphviz()
 
+KruskalI=gfErdosReny.KruskalI()
+KruskalI.display()
+KruskalI.graphviz()
+
 prim=gfErdosReny.Prim()
 prim.display()
 prim.graphviz()
@@ -44,3 +49,4 @@ prim.graphviz()
 
 #******************************************************************************
 '''
+print("Execution time --- %s seconds ---" % round((time.time() - start_time),2))

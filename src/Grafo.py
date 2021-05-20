@@ -317,11 +317,13 @@ class Grafo:
 
         q = PriorityQueue() #Crear cola de prioridad
 
-         #Agregar todos los nodos al grafo
+        mst_costo=0
+
+         #Agregar todos los nodos al grafo kruskal inverso
         for key, value in self.nodos.items():
             grafoKruskalI.agregar_nodoExistente(self.nodos[value.id])
 
-         #Agregar todas los aristas al grafo
+         #Agregar todas los aristas al grafo kruskal inverso
         for key, value in self.aristas.items():
             grafoKruskalI.agregar_aristaExistente(self.aristas[value.id])
             q.put((-value.weight,value.id))  #Agregar arista a la cola de prioridad  (Valor negativo para invertir la cola de prioridad)
@@ -329,15 +331,20 @@ class Grafo:
         #Obtener el total de nodos inicial
         totalNodos=grafoKruskalI.totalNodos()
 
-        #Ordenar las aristas de mayor a menor
-        print('totalNodos:',totalNodos)
-
-        mst_costo=0
-
         while not q.empty():
-            weight,arista = q.get() #Extraer el siguiente nodo (con la distancia más pequeña)
-            print('[',weight,'] ', arista)
+            weight,arista = q.get() #Extraer la siguiente arista (con el mayor peso)
 
+            del grafoKruskalI.aristas[arista] #Remover arista del grafo
+
+            #Revisar si el grafo queda desconectado (El total de nodos disminuyo)
+            grafoDFS=grafoKruskalI.DFS_R(1) #Llamar DFS recursivo
+            totalNodosDFS = grafoDFS.totalNodos() #Obtener el total de nodos en el nuevo grafo
+
+            if totalNodosDFS<totalNodos: #Si el nuevo grafo tiene menos nodos entonces el grafo se desconecto
+                grafoKruskalI.agregar_aristaExistente(self.aristas[arista]) #Regresar la arista al grafo
+                mst_costo+=weight #Sumar costo al mst
+
+        mst_costo*=-1 #Convertir el costo negativo a positivo
         print('KruskalI - MST costo:',mst_costo)
         return grafoKruskalI
 
