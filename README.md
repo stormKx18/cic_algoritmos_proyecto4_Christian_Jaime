@@ -64,7 +64,7 @@ Entregables:
 
 > 16 Nodos y 24 Aristas
 
-<img src="/img/grafoMalla_m_4_n_4.PNG" width="500" />
+<img src="/img/grafoMalla_m_4_n_4mst.PNG" width="500" />
 
 ##
 
@@ -77,6 +77,8 @@ Entregables:
 
 <img src="/img/grafoMalla_m_4_n_4_KruskalDmst.PNG" width="500" />
 
+##
+
 ### Pocos nodos - Kruskal Inverso (Modelo Gm,n de malla) [graphviz](/graphviz/grafoMalla_m_4_n_4_KruskalI.gv)
 **m = 4, n = 4, dirigido = False**
 
@@ -85,6 +87,8 @@ Entregables:
 > 16 Nodos y 15 Aristas
 
 <img src="/img/grafoMalla_m_4_n_4_KruskalImst.PNG" width="500" />
+
+##
 
 ### Pocos nodos - Prim (Modelo Gm,n de malla) [graphviz](/graphviz/grafoMalla_m_4_n_4_Prim.gv)
 **m = 4, n = 4, dirigido = False**
