@@ -1,40 +1,40 @@
-2021-05-20 21:07:42.975742
+2021-05-20 21:13:28.976040
 ---16 Nodos---
 ---30 Aristas---
 Arhivo Graphviz generado: gv/grafoErdosRenyi_n_16_m_30.gv
 
-KruskalD - MST costo: 224
----0 Nodos---
----14 Aristas---
+KruskalD - MST costo: 240
+---16 Nodos---
+---15 Aristas---
 Arhivo Graphviz generado: gv/grafoErdosRenyi_n_16_m_30_KruskalD.gv
 
-KruskalI - MST costo: 786
+KruskalI - MST costo: 240
 ---16 Nodos---
----30 Aristas---
+---15 Aristas---
 Arhivo Graphviz generado: gv/grafoErdosRenyi_n_16_m_30_KruskalI.gv
 
-Prim - MST costo: 224
+Prim - MST costo: 240
 ---16 Nodos---
----14 Aristas---
+---15 Aristas---
 Arhivo Graphviz generado: gv/grafoErdosRenyi_n_16_m_30_Prim.gv
 
 ---100 Nodos---
 ---500 Aristas---
 Arhivo Graphviz generado: gv/grafoErdosRenyi_n_100_m_500.gv
 
-KruskalD - MST costo: 588
----0 Nodos---
+KruskalD - MST costo: 611
+---100 Nodos---
 ---99 Aristas---
 Arhivo Graphviz generado: gv/grafoErdosRenyi_n_100_m_500_KruskalD.gv
 
-KruskalI - MST costo: 588
+KruskalI - MST costo: 611
 ---100 Nodos---
 ---99 Aristas---
 Arhivo Graphviz generado: gv/grafoErdosRenyi_n_100_m_500_KruskalI.gv
 
-Prim - MST costo: 588
+Prim - MST costo: 611
 ---100 Nodos---
 ---99 Aristas---
 Arhivo Graphviz generado: gv/grafoErdosRenyi_n_100_m_500_Prim.gv
 
-Execution time --- 4.69 seconds ---
+Execution time --- 4.96 seconds ---
