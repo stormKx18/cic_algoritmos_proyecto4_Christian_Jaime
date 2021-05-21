@@ -101,21 +101,47 @@ Entregables:
 
 ##
 
-### Muchos nodos (Modelo Gm,n de malla)  [graphviz](/graphviz/grafoMalla_m_25_n_4_labels.gv)
+### Muchos nodos (Modelo Gm,n de malla)  [graphviz](/graphviz/grafoMalla_m_20_n_10.gv)
 **m = 20, n = 10, dirigido = False**
 
-<img src="/img/grafoMalla_m_25_n_4_labels.png" width="500" />
+<img src="/img/grafoMalla_m_20_n_10.png" width="500" />
 
-> 100 Nodos y 171 Aristas
+> 200 Nodos y 370 Aristas
+
+<img src="/img/grafoMalla_m_20_n_10mst.PNG" width="500" />
 
 ##
 
-### Muchos nodos - Dijkstra (Modelo Gm,n de malla) [graphviz](/graphviz/grafoMalla_m_25_n_4_Dijkstra__source_1_labels.gv)
+### Muchos nodos - Kruskal Directo (Modelo Gm,n de malla) [graphviz](/graphviz/grafoMalla_m_20_n_10_KruskalD.gv)
 **m = 20, n = 10, dirigido = False**, nodo_raiz= 1
 
-<img src="/img/grafoMalla_m_25_n_4_Dijkstra__source_1_labels.png" width="500" />
+<img src="/img/grafoMalla_m_20_n_10_KruskalD.png" width="500" />
 
-> 100 Nodos y 99 Aristas
+> 200 Nodos y 199 Aristas
+
+<img src="/img/grafoMalla_m_20_n_10_KruskalDmst.PNG" width="500" />
+
+##
+
+### Muchos nodos - Kruskal Inverso (Modelo Gm,n de malla) [graphviz](/graphviz/grafoMalla_m_20_n_10_KruskalI.gv)
+**m = 20, n = 10, dirigido = False**, nodo_raiz= 1
+
+<img src="/img/grafoMalla_m_20_n_10_KruskalI.png" width="500" />
+
+> 200 Nodos y 199 Aristas
+
+<img src="/img/grafoMalla_m_20_n_10_KruskalImst.PNG" width="500" />
+
+##
+
+### Muchos nodos - Prim (Modelo Gm,n de malla) [graphviz](/graphviz/grafoMalla_m_20_n_10_Prim.gv)
+**m = 20, n = 10, dirigido = False**, nodo_raiz= 1
+
+<img src="/img/grafoMalla_m_20_n_10_Prim.png" width="500" />
+
+> 200 Nodos y 199 Aristas
+
+<img src="/img/grafoMalla_m_20_n_10_Primmst.PNG" width="500" />
 
 ---
 
