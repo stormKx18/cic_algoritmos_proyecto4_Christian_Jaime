@@ -1,0 +1,40 @@
+2021-05-20 21:19:41.081175
+---20 Nodos---
+---38 Aristas---
+Arhivo Graphviz generado: gv/grafoGilbert_n_20_p_10.gv
+
+KruskalD - MST costo: 273
+---20 Nodos---
+---19 Aristas---
+Arhivo Graphviz generado: gv/grafoGilbert_n_20_p_10_KruskalD.gv
+
+KruskalI - MST costo: 273
+---20 Nodos---
+---19 Aristas---
+Arhivo Graphviz generado: gv/grafoGilbert_n_20_p_10_KruskalI.gv
+
+Prim - MST costo: 273
+---20 Nodos---
+---19 Aristas---
+Arhivo Graphviz generado: gv/grafoGilbert_n_20_p_10_Prim.gv
+
+---100 Nodos---
+---945 Aristas---
+Arhivo Graphviz generado: gv/grafoGilbert_n_100_p_10.gv
+
+KruskalD - MST costo: 318
+---100 Nodos---
+---99 Aristas---
+Arhivo Graphviz generado: gv/grafoGilbert_n_100_p_10_KruskalD.gv
+
+KruskalI - MST costo: 318
+---100 Nodos---
+---99 Aristas---
+Arhivo Graphviz generado: gv/grafoGilbert_n_100_p_10_KruskalI.gv
+
+Prim - MST costo: 318
+---100 Nodos---
+---99 Aristas---
+Arhivo Graphviz generado: gv/grafoGilbert_n_100_p_10_Prim.gv
+
+Execution time --- 16.15 seconds ---

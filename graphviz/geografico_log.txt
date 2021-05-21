@@ -1,0 +1,40 @@
+2021-05-20 21:22:39.786207
+---30 Nodos---
+---103 Aristas---
+Arhivo Graphviz generado: gv/grafoGeografico_n_30_r_3.gv
+
+KruskalD - MST costo: 273
+---30 Nodos---
+---29 Aristas---
+Arhivo Graphviz generado: gv/grafoGeografico_n_30_r_3_KruskalD.gv
+
+KruskalI - MST costo: 273
+---30 Nodos---
+---29 Aristas---
+Arhivo Graphviz generado: gv/grafoGeografico_n_30_r_3_KruskalI.gv
+
+Prim - MST costo: 273
+---30 Nodos---
+---29 Aristas---
+Arhivo Graphviz generado: gv/grafoGeografico_n_30_r_3_Prim.gv
+
+---100 Nodos---
+---1234 Aristas---
+Arhivo Graphviz generado: gv/grafoGeografico_n_100_r_3.gv
+
+KruskalD - MST costo: 302
+---100 Nodos---
+---99 Aristas---
+Arhivo Graphviz generado: gv/grafoGeografico_n_100_r_3_KruskalD.gv
+
+KruskalI - MST costo: 302
+---100 Nodos---
+---99 Aristas---
+Arhivo Graphviz generado: gv/grafoGeografico_n_100_r_3_KruskalI.gv
+
+Prim - MST costo: 302
+---100 Nodos---
+---99 Aristas---
+Arhivo Graphviz generado: gv/grafoGeografico_n_100_r_3_Prim.gv
+
+Execution time --- 27.55 seconds ---
