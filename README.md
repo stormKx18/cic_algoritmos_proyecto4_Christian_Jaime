@@ -57,26 +57,26 @@ Entregables:
 
 ##
 
-### Pocos nodos (Modelo Gm,n de malla)  [graphviz](/graphviz/grafoMalla_m_3_n_3_labels.gv)
-**m = 3, n = 3, dirigido = False**
+### Pocos nodos (Modelo Gm,n de malla)  [graphviz](/graphviz/grafoMalla_m_4_n_4.gv)
+**m = 4, n = 4, dirigido = False**
 
-<img src="/img/grafoMalla_m_3_n_3_labels.png" width="500" />
+<img src="/img/grafoMalla_m_4_n_4.png" width="500" />
 
-> 9 Nodos y 12 Aristas
+> 16 Nodos y 24 Aristas
 
 ##
 
-### Pocos nodos - Dijkstra (Modelo Gm,n de malla) [graphviz](/graphviz/grafoMalla_m_3_n_3_Dijkstra__source_1_labels.gv)
-**m = 3, n = 3, dirigido = False**, nodo_raiz= 1
+### Pocos nodos - Kruskal Directo (Modelo Gm,n de malla) [graphviz](/graphviz/grafoMalla_m_4_n_4_KruskalD.gv)
+**m = 4, n = 4, dirigido = False**, nodo_raiz= 1
 
-<img src="/img/grafoMalla_m_3_n_3_Dijkstra__source_1_labels.png" width="500" />
+<img src="/img/grafoMalla_m_4_n_4_KruskalD.png" width="500" />
 
-> 9 Nodos y 8 Aristas
+> 16 Nodos y 15 Aristas
 
 ##
 
 ### Muchos nodos (Modelo Gm,n de malla)  [graphviz](/graphviz/grafoMalla_m_25_n_4_labels.gv)
-**m = 25, n = 4, dirigido = False**
+**m = 20, n = 10, dirigido = False**
 
 <img src="/img/grafoMalla_m_25_n_4_labels.png" width="500" />
 
@@ -85,7 +85,7 @@ Entregables:
 ##
 
 ### Muchos nodos - Dijkstra (Modelo Gm,n de malla) [graphviz](/graphviz/grafoMalla_m_25_n_4_Dijkstra__source_1_labels.gv)
-**m = 25, n = 4, dirigido = False**, nodo_raiz= 1
+**m = 20, n = 10, dirigido = False**, nodo_raiz= 1
 
 <img src="/img/grafoMalla_m_25_n_4_Dijkstra__source_1_labels.png" width="500" />
 
