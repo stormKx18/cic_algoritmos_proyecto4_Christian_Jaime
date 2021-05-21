@@ -73,7 +73,7 @@ Entregables:
 
 > 16 Nodos y 15 Aristas
 
-<img src="/img/grafoMalla_m_4_n_4_KruskalDmst.png" width="500" />
+<img src="/img/grafoMalla_m_4_n_4_KruskalDmst.PNG" width="500" />
 
 ##
 
