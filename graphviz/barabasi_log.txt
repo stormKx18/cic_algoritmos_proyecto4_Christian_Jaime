@@ -1,0 +1,40 @@
+2021-05-20 21:27:04.656102
+---30 Nodos---
+---58 Aristas---
+Arhivo Graphviz generado: gv/grafoBarabasiAlbert_n_30_d_4.gv
+
+KruskalD - MST costo: 452
+---30 Nodos---
+---29 Aristas---
+Arhivo Graphviz generado: gv/grafoBarabasiAlbert_n_30_d_4_KruskalD.gv
+
+KruskalI - MST costo: 452
+---30 Nodos---
+---29 Aristas---
+Arhivo Graphviz generado: gv/grafoBarabasiAlbert_n_30_d_4_KruskalI.gv
+
+Prim - MST costo: 452
+---30 Nodos---
+---29 Aristas---
+Arhivo Graphviz generado: gv/grafoBarabasiAlbert_n_30_d_4_Prim.gv
+
+---100 Nodos---
+---198 Aristas---
+Arhivo Graphviz generado: gv/grafoBarabasiAlbert_n_100_d_4.gv
+
+KruskalD - MST costo: 1384
+---100 Nodos---
+---99 Aristas---
+Arhivo Graphviz generado: gv/grafoBarabasiAlbert_n_100_d_4_KruskalD.gv
+
+KruskalI - MST costo: 1384
+---100 Nodos---
+---99 Aristas---
+Arhivo Graphviz generado: gv/grafoBarabasiAlbert_n_100_d_4_KruskalI.gv
+
+Prim - MST costo: 1384
+---100 Nodos---
+---99 Aristas---
+Arhivo Graphviz generado: gv/grafoBarabasiAlbert_n_100_d_4_Prim.gv
+
+Execution time --- 0.88 seconds ---

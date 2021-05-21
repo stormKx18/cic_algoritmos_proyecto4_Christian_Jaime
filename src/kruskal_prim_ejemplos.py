@@ -4,7 +4,7 @@ start_time = time.time()
 
 x = datetime.datetime.now()
 print(x)
-'''
+
 #******************************************************************************
 from grafoMalla import grafoMalla
 #******************************************************************************
@@ -48,8 +48,8 @@ prim=gfMalla.Prim()
 prim.display()
 prim.graphviz()
 
-'''
-'''
+
+
 #******************************************************************************
 from grafoErdosRenyi import grafoErdosRenyi
 #******************************************************************************
@@ -93,9 +93,9 @@ prim=gfErdosReny.Prim()
 prim.display()
 prim.graphviz()
 
-'''
 
-'''
+
+
 #******************************************************************************
 from grafoGilbert import grafoGilbert
 #******************************************************************************
@@ -139,7 +139,7 @@ KruskalI.graphviz()
 prim=gfGilbert.Prim()
 prim.display()
 prim.graphviz()
-'''
+
 
 #******************************************************************************
 from grafoGeografico import grafoGeografico
@@ -183,5 +183,94 @@ KruskalI.graphviz()
 prim=gfGeografico.Prim()
 prim.display()
 prim.graphviz()
+
+
+#******************************************************************************
+from grafoBarabasiAlbert import grafoBarabasiAlbert
+#******************************************************************************
+#grafoBarabasiAlbert - 30 nodos
+gfBarabasiAlbert = grafoBarabasiAlbert(n=30, d=4, dirigido=False, auto=False)
+gfBarabasiAlbert.display()
+gfBarabasiAlbert.graphviz()
+
+#Kruskal directo
+KruskalD=gfBarabasiAlbert.KruskalD()
+KruskalD.display()
+KruskalD.graphviz()
+
+#Kruskal Inverso
+KruskalI=gfBarabasiAlbert.KruskalI()
+KruskalI.display()
+KruskalI.graphviz()
+
+#Prim
+prim=gfBarabasiAlbert.Prim()
+prim.display()
+prim.graphviz()
+
+#grafoBarabasiAlbert - 100 nodos
+gfBarabasiAlbert = grafoBarabasiAlbert(n=100, d=4, dirigido=False, auto=False)
+gfBarabasiAlbert.display()
+gfBarabasiAlbert.graphviz()
+
+#Kruskal directo
+KruskalD=gfBarabasiAlbert.KruskalD()
+KruskalD.display()
+KruskalD.graphviz()
+
+#Kruskal Inverso
+KruskalI=gfBarabasiAlbert.KruskalI()
+KruskalI.display()
+KruskalI.graphviz()
+
+#Prim
+prim=gfBarabasiAlbert.Prim()
+prim.display()
+prim.graphviz()
+
+
+#******************************************************************************
+from grafoDorogovtsevMendes import grafoDorogovtsevMendes
+#******************************************************************************
+#grafoBarabasiAlbert - 30 nodos
+gfDorogovtsevMendes = grafoDorogovtsevMendes(30,dirigido=False)
+gfDorogovtsevMendes.display()
+gfDorogovtsevMendes.graphviz()
+
+#Kruskal directo
+KruskalD=gfDorogovtsevMendes.KruskalD()
+KruskalD.display()
+KruskalD.graphviz()
+
+#Kruskal Inverso
+KruskalI=gfDorogovtsevMendes.KruskalI()
+KruskalI.display()
+KruskalI.graphviz()
+
+#Prim
+prim=gfDorogovtsevMendes.Prim()
+prim.display()
+prim.graphviz()
+
+#grafoBarabasiAlbert - 100 nodos
+gfDorogovtsevMendes = grafoDorogovtsevMendes(100,dirigido=False)
+gfDorogovtsevMendes.display()
+gfDorogovtsevMendes.graphviz()
+
+#Kruskal directo
+KruskalD=gfDorogovtsevMendes.KruskalD()
+KruskalD.display()
+KruskalD.graphviz()
+
+#Kruskal Inverso
+KruskalI=gfDorogovtsevMendes.KruskalI()
+KruskalI.display()
+KruskalI.graphviz()
+
+#Prim
+prim=gfDorogovtsevMendes.Prim()
+prim.display()
+prim.graphviz()
+
 #******************************************************************************
 print("Execution time --- %s seconds ---" % round((time.time() - start_time),2))

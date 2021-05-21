@@ -95,7 +95,6 @@ dijkstra.graphvizWithLabels()
 
 
 #******************************************************************************
-
 from grafoBarabasiAlbert import grafoBarabasiAlbert
 #******************************************************************************
 #grafoBarabasiAlbert - 30 nodos
@@ -118,7 +117,6 @@ dijkstra.display()
 dijkstra.graphvizWithLabels()
 
 #******************************************************************************
-
 from grafoDorogovtsevMendes import grafoDorogovtsevMendes
 #******************************************************************************
 #grafoBarabasiAlbert - 30 nodos
