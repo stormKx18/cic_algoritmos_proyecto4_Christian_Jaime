@@ -73,6 +73,8 @@ Entregables:
 
 > 16 Nodos y 15 Aristas
 
+<img src="/img/grafoMalla_m_4_n_4_KruskalDmst.png" width="500" />
+
 ##
 
 ### Muchos nodos (Modelo Gm,n de malla)  [graphviz](/graphviz/grafoMalla_m_25_n_4_labels.gv)
