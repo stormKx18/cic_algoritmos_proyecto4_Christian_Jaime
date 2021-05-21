@@ -4,7 +4,8 @@ start_time = time.time()
 
 x = datetime.datetime.now()
 print(x)
-
+#Nodo -> F016F7, size 20, yifan hu 250
+#edge label -> FFFD25
 #******************************************************************************
 from grafoMalla import grafoMalla
 #******************************************************************************
