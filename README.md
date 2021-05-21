@@ -377,39 +377,75 @@ Entregables:
 
 ##
 
-### Pocos nodos (Variante del modelo Gn,d Barabási-Albert)  [graphviz](/graphviz/grafoBarabasiAlbert_n_30_d_4_labels.gv)
+### Pocos nodos (Variante del modelo Gn,d Barabási-Albert)  [graphviz](/graphviz/grafoBarabasiAlbert_n_30_d_4.gv)
 **n = 30, d = 4, dirigido = False, auto=False**
 
-<img src="/img/grafoBarabasiAlbert_n_30_d_4_labels.png" width="500" />
+<img src="/img/grafoBarabasiAlbert_n_30_d_4.png" width="500" />
 
-> 30 Nodos y 59 Aristas
-
-##
-
-### Pocos nodos - Dijkstra (Variante del modelo Gn,d Barabási-Albert) [graphviz](/graphviz/grafoBarabasiAlbert_n_30_d_4_Dijkstra__source_1_labels.gv)
-**n = 30, d = 4, dirigido = False, auto=False**, nodo_raiz= 1
-
-<img src="/img/grafoBarabasiAlbert_n_30_d_4_Dijkstra__source_1_labels.png" width="500" />
-
-> 30 Nodos y 29 Aristas
+<img src="/img/grafoBarabasiAlbert_n_30_d_4mst.PNG" width="500" />
 
 ##
 
-### Muchos nodos (Variante del modelo Gn,d Barabási-Albert)  [graphviz](/graphviz/grafoBarabasiAlbert_n_100_d_4_labels.gv)
+### Pocos nodos - Kruskal Directo (Variante del modelo Gn,d Barabási-Albert) [graphviz](/graphviz/grafoBarabasiAlbert_n_30_d_4_KruskalD.gv)
+**n = 30, d = 4, dirigido = False, auto=False**
+
+<img src="/img/grafoBarabasiAlbert_n_30_d_4_KruskalD.png" width="500" />
+
+<img src="/img/grafoBarabasiAlbert_n_30_d_4_KruskalDmst.PNG" width="500" />
+
+##
+
+### Pocos nodos - Kruskal Inverso (Variante del modelo Gn,d Barabási-Albert) [graphviz](/graphviz/grafoBarabasiAlbert_n_30_d_4_KruskalI.gv)
+**n = 30, d = 4, dirigido = False, auto=False**
+
+<img src="/img/grafoBarabasiAlbert_n_30_d_4_KruskalI.png" width="500" />
+
+<img src="/img/grafoBarabasiAlbert_n_30_d_4_KruskalImst.PNG" width="500" />
+
+##
+
+### Pocos nodos - Prim (Variante del modelo Gn,d Barabási-Albert) [graphviz](/graphviz/grafoBarabasiAlbert_n_30_d_4_Prim.gv)
+**n = 30, d = 4, dirigido = False, auto=False**
+
+<img src="/img/grafoBarabasiAlbert_n_30_d_4_Prim.png" width="500" />
+
+<img src="/img/grafoBarabasiAlbert_n_30_d_4_Primmst.PNG" width="500" />
+
+##
+
+### Muchos nodos (Variante del modelo Gn,d Barabási-Albert)  [graphviz](/graphviz/grafoBarabasiAlbert_n_100_d_4.gv)
 **n = 100, d = 4, dirigido = False, auto=False**
 
-<img src="/img/grafoBarabasiAlbert_n_100_d_4_labels.png" width="500" />
+<img src="/img/grafoBarabasiAlbert_n_100_d_4.png" width="500" />
 
-> 100 Nodos y 198 Aristas
+<img src="/img/grafoBarabasiAlbert_n_100_d_4mst.PNG" width="500" />
 
 ##
 
-### Muchos nodos - Dijkstra (Variante del modelo Gn,d Barabási-Albert) [graphviz](/graphviz/grafoBarabasiAlbert_n_100_d_4_Dijkstra__source_1_labels.gv)
+### Muchos nodos - Kruskal Directo (Variante del modelo Gn,d Barabási-Albert) [graphviz](/graphviz/grafoBarabasiAlbert_n_100_d_4_KruskalD.gv)
 **n = 100, d = 4, dirigido = False, auto=False**, nodo_raiz= 1
 
-<img src="/img/grafoBarabasiAlbert_n_100_d_4_Dijkstra__source_1_labels.png" width="500" />
+<img src="/img/grafoBarabasiAlbert_n_100_d_4_KruskalD.png" width="500" />
 
-> 100 Nodos y 99 Aristas
+<img src="/img/grafoBarabasiAlbert_n_100_d_4_KruskalDmst.PNG" width="500" />
+
+##
+
+### Muchos nodos - Kruskal Inverso (Variante del modelo Gn,d Barabási-Albert) [graphviz](/graphviz/grafoBarabasiAlbert_n_100_d_4_KruskalI.gv)
+**n = 100, d = 4, dirigido = False, auto=False**, nodo_raiz= 1
+
+<img src="/img/grafoBarabasiAlbert_n_100_d_4_KruskalI.png" width="500" />
+
+<img src="/img/grafoBarabasiAlbert_n_100_d_4_KruskalImst.PNG" width="500" />
+
+##
+
+### Muchos nodos - Prim (Variante del modelo Gn,d Barabási-Albert) [graphviz](/graphviz/grafoBarabasiAlbert_n_100_d_4_Prim.gv)
+**n = 100, d = 4, dirigido = False, auto=False**, nodo_raiz= 1
+
+<img src="/img/grafoBarabasiAlbert_n_100_d_4_Prim.png" width="500" />
+
+<img src="/img/grafoBarabasiAlbert_n_100_d_4_Primmst.PNG" width="500" />
 
 ---
 
