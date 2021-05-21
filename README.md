@@ -62,8 +62,6 @@ Entregables:
 
 <img src="/img/grafoMalla_m_4_n_4.png" width="500" />
 
-> 16 Nodos y 24 Aristas
-
 <img src="/img/grafoMalla_m_4_n_4mst.PNG" width="500" />
 
 ##
@@ -72,8 +70,6 @@ Entregables:
 **m = 4, n = 4, dirigido = False**
 
 <img src="/img/grafoMalla_m_4_n_4_KruskalD.png" width="500" />
-
-> 16 Nodos y 15 Aristas
 
 <img src="/img/grafoMalla_m_4_n_4_KruskalDmst.PNG" width="500" />
 
@@ -84,8 +80,6 @@ Entregables:
 
 <img src="/img/grafoMalla_m_4_n_4_KruskalI.png" width="500" />
 
-> 16 Nodos y 15 Aristas
-
 <img src="/img/grafoMalla_m_4_n_4_KruskalImst.PNG" width="500" />
 
 ##
@@ -94,8 +88,6 @@ Entregables:
 **m = 4, n = 4, dirigido = False**
 
 <img src="/img/grafoMalla_m_4_n_4_Prim.png" width="500" />
-
-> 16 Nodos y 15 Aristas
 
 <img src="/img/grafoMalla_m_4_n_4_Primmst.PNG" width="500" />
 
@@ -106,8 +98,6 @@ Entregables:
 
 <img src="/img/grafoMalla_m_20_n_10.png" width="500" />
 
-> 200 Nodos y 370 Aristas
-
 <img src="/img/grafoMalla_m_20_n_10mst.PNG" width="500" />
 
 ##
@@ -116,8 +106,6 @@ Entregables:
 **m = 20, n = 10, dirigido = False**, nodo_raiz= 1
 
 <img src="/img/grafoMalla_m_20_n_10_KruskalD.png" width="500" />
-
-> 200 Nodos y 199 Aristas
 
 <img src="/img/grafoMalla_m_20_n_10_KruskalDmst.PNG" width="500" />
 
@@ -128,8 +116,6 @@ Entregables:
 
 <img src="/img/grafoMalla_m_20_n_10_KruskalI.png" width="500" />
 
-> 200 Nodos y 199 Aristas
-
 <img src="/img/grafoMalla_m_20_n_10_KruskalImst.PNG" width="500" />
 
 ##
@@ -138,8 +124,6 @@ Entregables:
 **m = 20, n = 10, dirigido = False**, nodo_raiz= 1
 
 <img src="/img/grafoMalla_m_20_n_10_Prim.png" width="500" />
-
-> 200 Nodos y 199 Aristas
 
 <img src="/img/grafoMalla_m_20_n_10_Primmst.PNG" width="500" />
 
