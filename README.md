@@ -217,39 +217,75 @@ Entregables:
 
 ##
 
-### Pocos nodos (Modelo Gn,p de Gilbert)  [graphviz](/graphviz/grafoGilbert_n_30_p_10_labels.gv)
-**n = 30, p = 0.1, dirigido = False, auto=False**
+### Pocos nodos (Modelo Gn,p de Gilbert)  [graphviz](/graphviz/grafoGilbert_n_20_p_10.gv)
+**n = 20, p = 0.1, dirigido = False, auto=False**
 
-<img src="/img/grafoGilbert_n_30_p_10_labels.png" width="500" />
+<img src="/img/grafoGilbert_n_20_p_10.png" width="500" />
 
-> 30 Nodos y 93 Aristas
-
-##
-
-### Pocos nodos - Dijkstra (Modelo Gn,p de Gilbert) [graphviz](/graphviz/grafoGilbert_n_30_p_10_Dijkstra__source_1_labels.gv)
-**n = 30, p = 0.1, dirigido = False, auto=False**, nodo_raiz= 1
-
-<img src="/img/grafoGilbert_n_30_p_10_Dijkstra__source_1_labels.png" width="500" />
-
-> 30 Nodos y 29 Aristas
+<img src="/img/grafoGilbert_n_20_p_10mst.PNG" width="500" />
 
 ##
 
-### Muchos nodos (Modelo Gn,p de Gilbert)  [graphviz](/graphviz/grafoGilbert_n_100_p_10_labels.gv)
+### Pocos nodos - Kruskal Directo (Modelo Gn,p de Gilbert) [graphviz](/graphviz/grafoGilbert_n_20_p_10_KruskalD.gv)
+**n = 20, p = 0.1, dirigido = False, auto=False**
+
+<img src="/img/grafoGilbert_n_20_p_10_KruskalD.png" width="500" />
+
+<img src="/img/grafoGilbert_n_20_p_10_KruskalDmst.PNG" width="500" />
+
+##
+
+### Pocos nodos - Kruskal Inverso (Modelo Gn,p de Gilbert) [graphviz](/graphviz/grafoGilbert_n_20_p_10_KruskalI.gv)
+**n = 20, p = 0.1, dirigido = False, auto=False**
+
+<img src="/img/grafoGilbert_n_20_p_10_KruskalI.png" width="500" />
+
+<img src="/img/grafoGilbert_n_20_p_10_KruskalImst.PNG" width="500" />
+
+##
+
+### Pocos nodos - Prim (Modelo Gn,p de Gilbert) [graphviz](/graphviz/grafoGilbert_n_20_p_10_Prim.gv)
+**n = 20, p = 0.1, dirigido = False, auto=False**
+
+<img src="/img/grafoGilbert_n_20_p_10_Prim.png" width="500" />
+
+<img src="/img/grafoGilbert_n_20_p_10_Primmst.PNG" width="500" />
+
+##
+
+### Muchos nodos (Modelo Gn,p de Gilbert)  [graphviz](/graphviz/grafoGilbert_n_100_p_10.gv)
 **n = 100, p = 0.1, dirigido = False, auto=False**
 
-<img src="/img/grafoGilbert_n_100_p_10_labels.png" width="500" />
+<img src="/img/grafoGilbert_n_100_p_10.png" width="500" />
 
-> 100 Nodos y 939 Aristas
+<img src="/img/grafoGilbert_n_100_p_10mst.PNG" width="500" />
 
 ##
 
-### Muchos nodos - Dijkstra (Modelo Gn,p de Gilbert) [graphviz](/graphviz/grafoGilbert_n_100_p_10_Dijkstra__source_1_labels.gv)
+### Muchos nodos - Kruskal Directo (Modelo Gn,p de Gilbert) [graphviz](/graphviz/grafoGilbert_n_100_p_10_KruskalD.gv)
 **n = 100, p = 0.1, dirigido = False, auto=False**, nodo_raiz= 1
 
-<img src="/img/grafoGilbert_n_100_p_10_Dijkstra__source_1_labels.png" width="500" />
+<img src="/img/grafoGilbert_n_100_p_10_KruskalD.png" width="500" />
 
-> 100 Nodos y 99 Aristas
+<img src="/img/grafoGilbert_n_100_p_10_KruskalDmst.PNG" width="500" />
+
+##
+
+### Muchos nodos - Kruskal Inverso (Modelo Gn,p de Gilbert) [graphviz](/graphviz/grafoGilbert_n_100_p_10_KruskalI.gv)
+**n = 100, p = 0.1, dirigido = False, auto=False**, nodo_raiz= 1
+
+<img src="/img/grafoGilbert_n_100_p_10_KruskalI.png" width="500" />
+
+<img src="/img/grafoGilbert_n_100_p_10_KruskalImst.PNG" width="500" />
+
+##
+
+### Muchos nodos - Prim (Modelo Gn,p de Gilbert) [graphviz](/graphviz/grafoGilbert_n_100_p_10_Prim.gv)
+**n = 100, p = 0.1, dirigido = False, auto=False**, nodo_raiz= 1
+
+<img src="/img/grafoGilbert_n_100_p_10_Prim.png" width="500" />
+
+<img src="/img/grafoGilbert_n_100_p_10_Primmst.PNG" width="500" />
 
 ---
 
