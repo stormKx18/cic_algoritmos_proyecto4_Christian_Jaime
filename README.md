@@ -137,39 +137,75 @@ Entregables:
 
 ##
 
-### Pocos nodos (Modelo Gn,m de Erdös y Rényi)  [graphviz](/graphviz/grafoErdosRenyi_n_20_m_30_labels.gv)
-**n = 20, m = 30, dirigido = False, auto=False**
+### Pocos nodos (Modelo Gn,m de Erdös y Rényi)  [graphviz](/graphviz/grafoErdosRenyi_n_16_m_30.gv)
+**n = 16, m = 30, dirigido = False, auto=False**
 
-<img src="/img/grafoErdosRenyi_n_20_m_30_labels.png" width="500" />
+<img src="/img/grafoErdosRenyi_n_16_m_30.png" width="500" />
 
-> 20 Nodos y 30 Aristas
-
-##
-
-### Pocos nodos - Dijkstra (Modelo Gn,m de Erdös y Rényi) [graphviz](/graphviz/grafoErdosRenyi_n_20_m_30_Dijkstra__source_1_labels.gv)
-**n = 20, m = 30, dirigido = False, auto=False**, nodo_raiz= 1
-
-<img src="/img/grafoErdosRenyi_n_20_m_30_Dijkstra__source_1_labels.png" width="500" />
-
-> 20 Nodos y 19 Aristas
+<img src="/img/grafoErdosRenyi_n_16_m_30mst.PNG" width="500" />
 
 ##
 
-### Muchos nodos (Modelo Gn,m de Erdös y Rényi)  [graphviz](/graphviz/grafoErdosRenyi_n_100_m_100_labels.gv)
-**n = 100, m = 100, dirigido = False, auto=False**
+### Pocos nodos - Kruskal Directo (Modelo Gn,m de Erdös y Rényi) [graphviz](/graphviz/grafoErdosRenyi_n_16_m_30_KruskalD.gv)
+**n = 16, m = 30, dirigido = False, auto=False**
 
-<img src="/img/grafoErdosRenyi_n_100_m_100_labels.png" width="500" />
+<img src="/img/grafoErdosRenyi_n_16_m_30_KruskalD.png" width="500" />
 
-> 100 Nodos y 100 Aristas
+<img src="/img/grafoErdosRenyi_n_16_m_30_KruskalDmst.PNG" width="500" />
 
 ##
 
-### Muchos nodos - Dijkstra (Modelo Gn,m de Erdös y Rényi) [graphviz](/graphviz/grafoErdosRenyi_n_100_m_100_Dijkstra__source_1_labels.gv)
-**n = 100, m = 100, dirigido = False, auto=False**, nodo_raiz= 1
+### Pocos nodos - Kruskal Inverso (Modelo Gn,m de Erdös y Rényi) [graphviz](/graphviz/grafoErdosRenyi_n_16_m_30_KruskalI.gv)
+**n = 16, m = 30, dirigido = False, auto=False**
 
-<img src="/img/grafoErdosRenyi_n_100_m_100_Dijkstra__source_1_labels.png" width="500" />
+<img src="/img/grafoErdosRenyi_n_16_m_30_KruskalI.png" width="500" />
 
-> 100 Nodos y 82 Aristas
+<img src="/img/grafoErdosRenyi_n_16_m_30_KruskalImst.PNG" width="500" />
+
+##
+
+### Pocos nodos - Prim (Modelo Gn,m de Erdös y Rényi) [graphviz](/graphviz/grafoErdosRenyi_n_16_m_30_Prim.gv)
+**n = 16, m = 30, dirigido = False, auto=False**
+
+<img src="/img/grafoErdosRenyi_n_16_m_30_Prim.png" width="500" />
+
+<img src="/img/grafoErdosRenyi_n_16_m_30_Primmst.PNG" width="500" />
+
+##
+
+### Muchos nodos (Modelo Gn,m de Erdös y Rényi)  [graphviz](/graphviz/grafoErdosRenyi_n_100_m_500.gv)
+**n = 100, m = 500, dirigido = False, auto=False**
+
+<img src="/img/grafoErdosRenyi_n_100_m_500.png" width="500" />
+
+<img src="/img/grafoErdosRenyi_n_100_m_500mst.PNG" width="500" />
+
+##
+
+### Muchos nodos - Kruskal Directo (Modelo Gn,m de Erdös y Rényi) [graphviz](/graphviz/grafoErdosRenyi_n_100_m_500_KruskalD.gv)
+**n = 100, m = 500, dirigido = False, auto=False**
+
+<img src="/img/grafoErdosRenyi_n_100_m_500_KruskalD.png" width="500" />
+
+<img src="/img/grafoErdosRenyi_n_100_m_500_KruskalDmst.PNG" width="500" />
+
+##
+
+### Muchos nodos - Kruskal Inverso (Modelo Gn,m de Erdös y Rényi) [graphviz](/graphviz/grafoErdosRenyi_n_100_m_500_KruskalI.gv)
+**n = 100, m = 500, dirigido = False, auto=False**
+
+<img src="/img/grafoErdosRenyi_n_100_m_500_KruskalI.png" width="500" />
+
+<img src="/img/grafoErdosRenyi_n_100_m_500_KruskalImst.PNG" width="500" />
+
+##
+
+### Muchos nodos - Prim (Modelo Gn,m de Erdös y Rényi) [graphviz](/graphviz/grafoErdosRenyi_n_100_m_500_Prim.gv)
+**n = 100, m = 500, dirigido = False, auto=False**
+
+<img src="/img/grafoErdosRenyi_n_100_m_500_Prim.png" width="500" />
+
+<img src="/img/grafoErdosRenyi_n_100_m_500_Primmst.PNG" width="500" />
 
 ---
 
