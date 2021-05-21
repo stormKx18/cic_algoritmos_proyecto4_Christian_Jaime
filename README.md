@@ -297,39 +297,75 @@ Entregables:
 
 ##
 
-### Pocos nodos (Modelo Gn,r Geográfico simple)  [graphviz](/graphviz/grafoGeografico_n_30_r_3_labels.gv)
+### Pocos nodos (Modelo Gn,r Geográfico simple)  [graphviz](/graphviz/grafoGeografico_n_30_r_3.gv)
 **n = 30, r = 0.3, dirigido = False, auto=False**
 
-<img src="/img/grafoGeografico_n_30_r_3_labels.png" width="500" />
+<img src="/img/grafoGeografico_n_30_r_3.png" width="500" />
 
-> 30 Nodos y 103 Aristas
+<img src="/img/grafoGeografico_n_30_r_3mst.PNG" width="500" />
 
 ##
 
-### Pocos nodos - Dijkstra (Modelo Gn,r Geográfico simple) [graphviz](/graphviz/grafoGeografico_n_30_r_3_Dijkstra__source_1_labels.gv)
+### Pocos nodos - Kruskal Directo (Modelo Gn,r Geográfico simple) [graphviz](/graphviz/grafoGeografico_n_30_r_3_KruskalD.gv)
 **n = 30, r = 0.3, dirigido = False, auto=False**, nodo_raiz= 1
 
-<img src="/img/grafoGeografico_n_30_r_3_Dijkstra__source_1_labels.png" width="500" />
+<img src="/img/grafoGeografico_n_30_r_3_KruskalD.png" width="500" />
 
-> 30 Nodos y 29 Aristas
+<img src="/img/grafoGeografico_n_30_r_3_KruskalDmst.PNG" width="500" />
 
 ##
 
-### Muchos nodos (Modelo Gn,r Geográfico simple)  [graphviz](/graphviz/grafoGeografico_n_100_r_3_labels.gv)
+### Pocos nodos - Kruskal Inverso (Modelo Gn,r Geográfico simple) [graphviz](/graphviz/grafoGeografico_n_30_r_3_KruskalI.gv)
+**n = 30, r = 0.3, dirigido = False, auto=False**, nodo_raiz= 1
+
+<img src="/img/grafoGeografico_n_30_r_3_KruskalI.png" width="500" />
+
+<img src="/img/grafoGeografico_n_30_r_3_KruskalImst.PNG" width="500" />
+
+##
+
+### Pocos nodos - Prim (Modelo Gn,r Geográfico simple) [graphviz](/graphviz/grafoGeografico_n_30_r_3_Prim.gv)
+**n = 30, r = 0.3, dirigido = False, auto=False**, nodo_raiz= 1
+
+<img src="/img/grafoGeografico_n_30_r_3_Prim.png" width="500" />
+
+<img src="/img/grafoGeografico_n_30_r_3_Primmst.PNG" width="500" />
+
+##
+
+### Muchos nodos (Modelo Gn,r Geográfico simple)  [graphviz](/graphviz/grafoGeografico_n_100_r_3.gv)
 **n = 100, r = 0.3, dirigido = False, auto=False**
 
-<img src="/img/grafoGeografico_n_100_r_3_labels.png" width="500" />
+<img src="/img/grafoGeografico_n_100_r_3.png" width="500" />
 
-> 100 Nodos y 1,102 Aristas
+<img src="/img/grafoGeografico_n_100_r_3mst.PNG" width="500" />
 
 ##
 
-### Muchos nodos - Dijkstra (Modelo Gn,r Geográfico simple) [graphviz](/graphviz/grafoGeografico_n_100_r_3_Dijkstra__source_1_labels.gv)
+### Muchos nodos - Kruskal Directo (Modelo Gn,r Geográfico simple) [graphviz](/graphviz/grafoGeografico_n_100_r_3_KruskalD.gv)
 **n = 100, r = 0.3, dirigido = False, auto=False**, nodo_raiz= 1
 
-<img src="/img/grafoGeografico_n_100_r_3_Dijkstra__source_1_labels.png" width="500" />
+<img src="/img/grafoGeografico_n_100_r_3_KruskalD.png" width="500" />
 
-> 100 Nodos y 99 Aristas
+<img src="/img/grafoGeografico_n_100_r_3_KruskalDmst.PNG" width="500" />
+
+##
+
+### Muchos nodos - Kruskal Inverso (Modelo Gn,r Geográfico simple) [graphviz](/graphviz/grafoGeografico_n_100_r_3_KruskalI.gv)
+**n = 100, r = 0.3, dirigido = False, auto=False**, nodo_raiz= 1
+
+<img src="/img/grafoGeografico_n_100_r_3_KruskalI.png" width="500" />
+
+<img src="/img/grafoGeografico_n_100_r_3_KruskalImst.PNG" width="500" />
+
+##
+
+### Muchos nodos - Prim (Modelo Gn,r Geográfico simple) [graphviz](/graphviz/grafoGeografico_n_100_r_3_Prim.gv)
+**n = 100, r = 0.3, dirigido = False, auto=False**, nodo_raiz= 1
+
+<img src="/img/grafoGeografico_n_100_r_3_Prim.png" width="500" />
+
+<img src="/img/grafoGeografico_n_100_r_3_Primmst.PNG" width="500" />
 
 ---
 
