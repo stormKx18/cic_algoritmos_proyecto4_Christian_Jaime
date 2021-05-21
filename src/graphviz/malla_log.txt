@@ -1,0 +1,40 @@
+2021-05-20 20:46:06.608742
+---16 Nodos---
+---24 Aristas---
+Arhivo Graphviz generado: gv/grafoMalla_m_4_n_4.gv
+
+KruskalD - MST costo: 295
+---0 Nodos---
+---15 Aristas---
+Arhivo Graphviz generado: gv/grafoMalla_m_4_n_4_KruskalD.gv
+
+KruskalI - MST costo: 295
+---16 Nodos---
+---15 Aristas---
+Arhivo Graphviz generado: gv/grafoMalla_m_4_n_4_KruskalI.gv
+
+Prim - MST costo: 295
+---16 Nodos---
+---15 Aristas---
+Arhivo Graphviz generado: gv/grafoMalla_m_4_n_4_Prim.gv
+
+---200 Nodos---
+---370 Aristas---
+Arhivo Graphviz generado: gv/grafoMalla_m_20_n_10.gv
+
+KruskalD - MST costo: 3023
+---0 Nodos---
+---199 Aristas---
+Arhivo Graphviz generado: gv/grafoMalla_m_20_n_10_KruskalD.gv
+
+KruskalI - MST costo: 3023
+---200 Nodos---
+---199 Aristas---
+Arhivo Graphviz generado: gv/grafoMalla_m_20_n_10_KruskalI.gv
+
+Prim - MST costo: 3023
+---200 Nodos---
+---199 Aristas---
+Arhivo Graphviz generado: gv/grafoMalla_m_20_n_10_Prim.gv
+
+Execution time --- 6.1 seconds ---

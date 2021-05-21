@@ -1,0 +1,33 @@
+digraph grafoMalla_m_4_n_4_Prim {
+1;
+2;
+3;
+4;
+5;
+6;
+7;
+8;
+9;
+10;
+11;
+12;
+13;
+14;
+15;
+16;
+1 -> 2[label=7 weight=7];
+3 -> 4[label=38 weight=38];
+4 -> 8[label=32 weight=32];
+1 -> 5[label=20 weight=20];
+2 -> 6[label=24 weight=24];
+7 -> 8[label=16 weight=16];
+8 -> 12[label=13 weight=13];
+9 -> 10[label=15 weight=15];
+6 -> 10[label=35 weight=35];
+11 -> 15[label=18 weight=18];
+11 -> 12[label=13 weight=13];
+9 -> 13[label=27 weight=27];
+13 -> 14[label=23 weight=23];
+14 -> 15[label=5 weight=5];
+15 -> 16[label=9 weight=9];
+}

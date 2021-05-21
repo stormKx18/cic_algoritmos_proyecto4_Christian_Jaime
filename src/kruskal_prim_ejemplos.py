@@ -9,6 +9,23 @@ print(x)
 from grafoMalla import grafoMalla
 #******************************************************************************
 #grafoMalla - Pocos nodos
+gfMalla = grafoMalla(4,4,dirigido=False) #3,3
+gfMalla.display()
+gfMalla.graphviz()
+
+KruskalD=gfMalla.KruskalD()
+KruskalD.display()
+KruskalD.graphviz()
+
+KruskalI=gfMalla.KruskalI()
+KruskalI.display()
+KruskalI.graphviz()
+
+prim=gfMalla.Prim()
+prim.display()
+prim.graphviz()
+
+#grafoMalla - Muchos nodos
 gfMalla = grafoMalla(20,10,dirigido=False) #3,3
 gfMalla.display()
 gfMalla.graphviz()
