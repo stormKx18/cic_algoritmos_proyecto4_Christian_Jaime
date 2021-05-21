@@ -455,38 +455,73 @@ Entregables:
 
 ##
 
-### Pocos nodos (Modelo Gn Dorogovtsev-Mendes)  [graphviz](/graphviz/grafoDorogovtsevMendes_n_30_labels.gv)
+### Pocos nodos (Modelo Gn Dorogovtsev-Mendes)  [graphviz](/graphviz/grafoDorogovtsevMendes_n_30.gv)
 **n = 30, dirigido = False**
 
-<img src="/img/grafoDorogovtsevMendes_n_30_labels.png" width="500" />
+<img src="/img/grafoDorogovtsevMendes_n_30.png" width="500" />
 
-> 30 Nodos y 58 Aristas
+<img src="/img/grafoDorogovtsevMendes_n_30mst.PNG" width="500" />
 
 ##
 
-### Pocos nodos - Dijkstra (Modelo Gn Dorogovtsev-Mendes) [graphviz](/graphviz/grafoDorogovtsevMendes_n_30_Dijkstra__source_1_labels.gv)
+### Pocos nodos - Kruskal Directo (Modelo Gn Dorogovtsev-Mendes) [graphviz](/graphviz/grafoDorogovtsevMendes_n_30_KruskalD.gv)
 **n = 30, dirigido = False**, nodo_raiz= 1
 
-<img src="/img/grafoDorogovtsevMendes_n_30_Dijkstra__source_1_labels.png" width="500" />
+<img src="/img/grafoDorogovtsevMendes_n_30_KruskalD.png" width="500" />
 
-> 30 Nodos y 29 Aristas
+<img src="/img/grafoDorogovtsevMendes_n_30_KruskalDmst.PNG" width="500" />
 
 ##
 
-### Muchos nodos (Modelo Gn Dorogovtsev-Mendes)  [graphviz](/graphviz/grafoDorogovtsevMendes_n_100_labels.gv)
+### Pocos nodos - Kruskal Inverso (Modelo Gn Dorogovtsev-Mendes) [graphviz](/graphviz/grafoDorogovtsevMendes_n_30_KruskalI.gv)
+**n = 30, dirigido = False**, nodo_raiz= 1
+
+<img src="/img/grafoDorogovtsevMendes_n_30_KruskalI.png" width="500" />
+
+<img src="/img/grafoDorogovtsevMendes_n_30_KruskalImst.PNG" width="500" />
+
+##
+
+### Pocos nodos - Prim (Modelo Gn Dorogovtsev-Mendes) [graphviz](/graphviz/grafoDorogovtsevMendes_n_30_Prim.gv)
+**n = 30, dirigido = False**, nodo_raiz= 1
+
+<img src="/img/grafoDorogovtsevMendes_n_30_Prim.png" width="500" />
+
+<img src="/img/grafoDorogovtsevMendes_n_30_Primmst.PNG" width="500" />
+
+
+### Muchos nodos (Modelo Gn Dorogovtsev-Mendes)  [graphviz](/graphviz/grafoDorogovtsevMendes_n_100.gv)
 **n = 100, dirigido = False**
 
-<img src="/img/grafoDorogovtsevMendes_n_100_labels.png" width="500" />
+<img src="/img/grafoDorogovtsevMendes_n_100.png" width="500" />
 
-> 100 Nodos y 197 Aristas
+<img src="/img/grafoDorogovtsevMendes_n_100mst.PNG" width="500" />
 
 ##
 
-### Muchos nodos - Dijkstra (Modelo Gn Dorogovtsev-Mendes) [graphviz](/graphviz/grafoDorogovtsevMendes_n_100_Dijkstra__source_1_labels.gv)
+### Muchos nodos - Kruskal Directo (Modelo Gn Dorogovtsev-Mendes) [graphviz](/graphviz/grafoDorogovtsevMendes_n_100_KruskalD.gv)
 **n = 100, dirigido = False**, nodo_raiz= 1
 
-<img src="/img/grafoDorogovtsevMendes_n_100_Dijkstra__source_1_labels.png" width="500" />
+<img src="/img/grafoDorogovtsevMendes_n_100_KruskalD.png" width="500" />
 
-> 100 Nodos y 99 Aristas
+<img src="/img/grafoDorogovtsevMendes_n_100_KruskalDmst.PNG" width="500" />
+
+##
+
+### Muchos nodos - Kruskal Inverso (Modelo Gn Dorogovtsev-Mendes) [graphviz](/graphviz/grafoDorogovtsevMendes_n_100_KruskalI.gv)
+**n = 100, dirigido = False**, nodo_raiz= 1
+
+<img src="/img/grafoDorogovtsevMendes_n_100_KruskalI.png" width="500" />
+
+<img src="/img/grafoDorogovtsevMendes_n_100_KruskalImst.PNG" width="500" />
+
+##
+
+### Muchos nodos - Prim (Modelo Gn Dorogovtsev-Mendes) [graphviz](/graphviz/grafoDorogovtsevMendes_n_100_Prim.gv)
+**n = 100, dirigido = False**, nodo_raiz= 1
+
+<img src="/img/grafoDorogovtsevMendes_n_100_Prim.png" width="500" />
+
+<img src="/img/grafoDorogovtsevMendes_n_100_Primmst.PNG" width="500" />
 
 ---
