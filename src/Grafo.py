@@ -290,6 +290,11 @@ class Grafo:
             q.put(self.aristas[arista]) #Agregar arista a la cola de prioridad (En la cola se ordenaran por peso)
 
         mst_costo=0
+
+        #Agregar todos los nodos al grafo kruskal inverso
+        for key, value in self.nodos.items():
+            grafoKruskalD.agregar_nodoExistente(self.nodos[value.id])
+
         while not q.empty():
             u = q.get() #Extraer la siguiente arista
             root1 = self.findParent(u.source.id)
